@@ -1,0 +1,108 @@
+h1 {
+  font-family: Poppins;
+  font-size: 50px;
+  color: bisque;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+.search {
+  background-color: whitesmoke;
+  border: none;
+  font-size: 16px;
+  padding: 16px;
+  width: 60%;
+  margin-left: 180px;
+  border-radius: 7px;
+  box-shadow: 2px 4px 5px 0px rgba(110, 105, 105, 0.75);
+  -webkit-box-shadow: 2px 4px 5px 0px rgba(110, 105, 105, 0.75);
+  -moz-box-shadow: 2px 4px 5px 0px rgba(110, 105, 105, 0.75);
+}
+.search-button {
+  font-size: 16px;
+  font-family: Poppins;
+  width: 10%;
+  color: whitesmoke;
+  text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: #00dbde;
+  border-radius: 7px;
+  border: none;
+  padding: 17px;
+  box-shadow: 2px 4px 5px 0px rgba(110, 105, 105, 0.75);
+  -webkit-box-shadow: 2px 4px 5px 0px rgba(110, 105, 105, 0.75);
+  -moz-box-shadow: 2px 4px 5px 0px rgba(110, 105, 105, 0.75);
+  line-height: 1;
+  margin-left: 5px;
+}
+a {
+  color: #00dbde;
+}
+header {
+  border-bottom: 1px solid whitesmoke;
+  padding: 15px;
+}
+.weather-app {
+  font-family: Poppins;
+  background-color: rgba(237, 234, 234, 0.5);
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 2px 4px 5px 0px rgba(110, 105, 105, 0.75);
+  -webkit-box-shadow: 2px 4px 5px 0px rgba(110, 105, 105, 0.75);
+  -moz-box-shadow: 2px 4px 5px 0px rgba(110, 105, 105, 0.75);
+}
+.main-forecast {
+  display: flex;
+  justify-content: space-between;
+}
+.current-city {
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: bolder;
+  margin: 0;
+  color: #15282d;
+}
+.current-city-temp-details {
+  font-family: Poppins;
+  color: #15282d;
+  font-size: 20px;
+  font-weight: 500;
+
+  line-height: 24px;
+}
+
+strong {
+  font-family: Poppins;
+  color: #15282d;
+}
+p {
+  font-size: 20px;
+  font-family: Poppins;
+}
+.icon {
+  width: 88px;
+  height: 88px;
+  position: relative;
+  top: -34px;
+}
+.current-temp-value {
+  font-family: Poppins;
+  font-size: 80px;
+  font-weight: bolder;
+  color: #15282d;
+}
+.current-temp-unit {
+  font-family: Poppins;
+  font-size: 28px;
+  position: relative;
+  top: -40px;
+  color: #15282d;
+}
+/*daily forecast*/
+.weather-forecast {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+}

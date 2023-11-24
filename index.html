@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Onest:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,300;0,400;0,800;1,100;1,200&family=Roboto+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/style.css" />
+
+    <title>The weather</title>
+  </head>
+  <body style="background-image: url('images/mountain-3351653_1280.jpeg')">
+    <header>
+      <h1>Welcome to the weather!</h1>
+      <form id="search-form">
+        <input
+          class="search"
+          type="search"
+          placeholder="Enter City..."
+          required
+          id="search-input"
+        />
+        <input class="search-button" type="submit" value="Search" />
+      </form>
+    </header>
+
+    <main>
+      <div class="weather-app">
+        <!--Daily Forecast-->
+        <div class="weather-forecast" id="forecast">daily forecast</div>
+        <!--Main Forecast-->
+        <div class="main-forecast"><div>
+            <h1 class="current-city" id="current-city"></h1>
+            <p class="current-city-temp-details">
+              <span id="current-date"></span><br/><span id="condition"></span>
+              <br />
+              Humidity: <strong id="humidity"></strong>, Wind:
+              <strong id="wind-speed"></strong>
+            </p>
+          </div>
+          <div class="current-temp">
+            <span class="weather-icon" id="weather-icon"
+              ><img
+                class="icon"
+                id="icon"
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-night.png"
+              />
+            </span>
+            <span class="current-temp-value" id="current-temperature"></span
+            ><span class="current-temp-unit">&#8451;</span>
+          </div>
+        </div></div>
+      </div>
+    </main>
+  </body>
+</html>
